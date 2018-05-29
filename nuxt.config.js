@@ -60,6 +60,16 @@ module.exports = {
    ** Modules configuration
    */
   modules: [
-    '@nuxtjs/axios'
-  ]
+    '@nuxtjs/axios', ['bootstrap-vue/nuxt', {
+      css: true
+    }, ],
+    '@nuxtjs/markdownit'
+  ],
+  markdownit: {
+    injected: true
+  },
+  /*
+   ** Plugin configuration
+   */
+  plugins: ['~/plugins/vue-highlightjs']
 }

@@ -1,0 +1,16 @@
+.box-outer {
+  display: table;
+  width: 100%;
+  height: 87vh;
+}
+
+.box-inner-xy {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.box-inner-y {
+  display: table-cell;
+  vertical-align: middle;
+}
