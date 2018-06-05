@@ -1,25 +1,20 @@
-# nuxt-starter-template
+# Vue.js でプログラミングが楽しくなる
 
-> Nuxt starter template with additions listed below
+> 社内発表のプレゼンで利用したアプリケーションです。
 
-* Sass(scss) support
-* Axios module included
+## ビルド手順
 
-## Build Setup
+前提条件として以下のインストールが済んでいる必要があります。
+
+- Git
+- Node.js v8.X 以上
 
 ```bash
-# install dependencies
+# 依存関係のインストール
 $ npm install # Or yarn install
 
-# serve with hot reload at localhost:3000
+# localhost:3000で公開する
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+このプレゼンテーションアプリは Nuxt を使っています。詳細は [Nuxt.js docs](https://github.com/nuxt/nuxt.js)をご確認ください。

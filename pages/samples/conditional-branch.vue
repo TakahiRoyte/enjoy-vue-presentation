@@ -9,7 +9,7 @@
       <b-col>
         <!-- 動作するサンプル -->
         <input type="checkbox" v-model="isSenseiShown"> 先生を表示
-        <div v-if="isSenseiShown"><img src="/tamanegi-sensei.jpg"></div>
+        <div v-if="isSenseiShown"><img src="/school_class_english.png"></div>
       </b-col>
     </b-row>
     <div class="text-right">

@@ -73,7 +73,7 @@ var app = new Vue({
   sampleCode06: `
 ### Html
 <input type="checkbox" v-model="isSenseiShown"> 先生を表示
-<div v-if="isSenseiShown"><img src="/tamanegi-sensei.jpg"></div>
+<div v-if="isSenseiShown"><img src="/school_class_english.png"></div>
 
 ### JavaScript
 var app = new Vue({
